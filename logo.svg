@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333EA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Two debate bubbles facing each other -->
+  <g>
+    <!-- Left bubble (speech) -->
+    <path d="M 60 80 Q 40 60, 40 40 Q 40 20, 60 20 L 90 20 Q 110 20, 110 40 Q 110 60, 90 80 L 75 80 L 70 95 L 65 80 Z" 
+          fill="url(#logoGradient)" opacity="0.9"/>
+    
+    <!-- Right bubble (speech) -->
+    <path d="M 140 100 Q 160 80, 160 60 Q 160 40, 140 40 L 110 40 Q 90 40, 90 60 Q 90 80, 110 100 L 125 100 L 130 115 L 135 100 Z" 
+          fill="url(#logoGradient)" opacity="0.9" transform="translate(0, 20)"/>
+    
+    <!-- Clash spark in the middle -->
+    <circle cx="100" cy="90" r="8" fill="#FFD700" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Small sparks -->
+    <circle cx="95" cy="85" r="3" fill="#FFD700" opacity="0.6"/>
+    <circle cx="105" cy="95" r="3" fill="#FFD700" opacity="0.6"/>
+    <circle cx="92" cy="95" r="2" fill="#FFD700" opacity="0.5"/>
+    <circle cx="108" cy="85" r="2" fill="#FFD700" opacity="0.5"/>
+  </g>
+</svg>

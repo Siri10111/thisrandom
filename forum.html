@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - Arment</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/forum.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="../index.html" class="logo">
+                    <img src="../images/logo.svg" alt="Arment Logo" class="logo-img">
+                    <span class="logo-text">Arment</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html#features">Features</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="../index.html#how-it-works">How It Works</a></li>
+                    <li><a href="../index.html#download">Download</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Community Forum</h1>
+            <p>Connect, discuss, and grow with fellow debaters</p>
+        </div>
+    </div>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="forum-notice">
+                <h3>📱 Join the Conversation</h3>
+                <p>Download the Arment app to post threads, reply to discussions, and fully participate in the community!</p>
+                <a href="../index.html#download" class="btn btn-primary">Download App</a>
+            </div>
+
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All Discussions</button>
+                <button class="filter-btn" data-category="general">General</button>
+                <button class="filter-btn" data-category="strategies">Strategies</button>
+                <button class="filter-btn" data-category="hot-topics">Hot Topics</button>
+                <button class="filter-btn" data-category="leaderboard">Leaderboard</button>
+                <button class="filter-btn" data-category="help">Help</button>
+            </div>
+
+            <div class="forum-threads">
+                <!-- Thread 1 -->
+                <div class="forum-thread" data-category="strategies">
+                    <div class="thread-header">
+                        <div class="thread-avatar">D</div>
+                        <div class="thread-info">
+                            <h3>Best strategies for winning technology debates?</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge strategies">Strategies</span>
+                                <span class="author">DebateMaster</span>
+                                <span class="time">2 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">I've been struggling with tech debates lately. What are your go-to strategies for arguing about AI, social media, regulation? Looking for tips from experienced debaters...</p>
+                    <div class="thread-stats">
+                        <span>💬 24 replies</span>
+                        <span>👍 48 upvotes</span>
+                        <span>👁️ 234 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 2 -->
+                <div class="forum-thread" data-category="hot-topics">
+                    <div class="thread-header">
+                        <div class="thread-avatar">L</div>
+                        <div class="thread-info">
+                            <h3>Hot Topic: Should AI be regulated by governments?</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge hot-topics">Hot Topics</span>
+                                <span class="author">LogicKing</span>
+                                <span class="time">5 hours ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">Just finished a heated debate on AI regulation. What's everyone's stance? Looking for strong arguments on both sides - innovation vs. safety concerns...</p>
+                    <div class="thread-stats">
+                        <span>💬 67 replies</span>
+                        <span>👍 142 upvotes</span>
+                        <span>👁️ 892 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 3 -->
+                <div class="forum-thread" data-category="leaderboard">
+                    <div class="thread-header">
+                        <div class="thread-avatar">A</div>
+                        <div class="thread-info">
+                            <h3>Congrats to this week's top 3 debaters!</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge leaderboard">Leaderboard</span>
+                                <span class="author">ArgumentAce</span>
+                                <span class="time">1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">Shoutout to the current top 3 on the leaderboard! Amazing win streaks this week. What's your secret to winning debates consistently? Share your tips!</p>
+                    <div class="thread-stats">
+                        <span>💬 31 replies</span>
+                        <span>👍 89 upvotes</span>
+                        <span>👁️ 456 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 4 -->
+                <div class="forum-thread" data-category="general">
+                    <div class="thread-header">
+                        <div class="thread-avatar">R</div>
+                        <div class="thread-info">
+                            <h3>How do you handle losing a debate?</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge general">General</span>
+                                <span class="author">ReasonRuler</span>
+                                <span class="time">1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">Lost 3 debates in a row and it's affecting my confidence. How do you guys bounce back from losses? Do you review your arguments? Take a break?</p>
+                    <div class="thread-stats">
+                        <span>💬 45 replies</span>
+                        <span>👍 76 upvotes</span>
+                        <span>👁️ 523 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 5 -->
+                <div class="forum-thread" data-category="strategies">
+                    <div class="thread-header">
+                        <div class="thread-avatar">T</div>
+                        <div class="thread-info">
+                            <h3>Pro tip: Always cite your sources!</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge strategies">Strategies</span>
+                                <span class="author">ThinkTank</span>
+                                <span class="time">2 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">I've noticed that arguments with credible sources get way more upvotes. Here's a list of good fact-checking sites and how to incorporate citations effectively...</p>
+                    <div class="thread-stats">
+                        <span>💬 18 replies</span>
+                        <span>👍 94 upvotes</span>
+                        <span>👁️ 612 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 6 -->
+                <div class="forum-thread" data-category="help">
+                    <div class="thread-header">
+                        <div class="thread-avatar">N</div>
+                        <div class="thread-info">
+                            <h3>New to Arment - How does scoring work?</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge help">Help</span>
+                                <span class="author">NewDebater</span>
+                                <span class="time">3 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">Just joined! Can someone explain how the point system works? What determines who wins a debate? How do I climb the leaderboard?</p>
+                    <div class="thread-stats">
+                        <span>💬 12 replies</span>
+                        <span>👍 28 upvotes</span>
+                        <span>👁️ 187 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 7 -->
+                <div class="forum-thread" data-category="general">
+                    <div class="thread-header">
+                        <div class="thread-avatar">P</div>
+                        <div class="thread-info">
+                            <h3>What's your favorite debate category?</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge general">General</span>
+                                <span class="author">PointMaker</span>
+                                <span class="time">4 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">I'm curious - do most people stick to one category or debate across all topics? I love technology debates but want to branch out...</p>
+                    <div class="thread-stats">
+                        <span>💬 53 replies</span>
+                        <span>👍 61 upvotes</span>
+                        <span>👁️ 391 views</span>
+                    </div>
+                </div>
+
+                <!-- Thread 8 -->
+                <div class="forum-thread" data-category="hot-topics">
+                    <div class="thread-header">
+                        <div class="thread-avatar">C</div>
+                        <div class="thread-info">
+                            <h3>Climate change debates are getting intense</h3>
+                            <div class="thread-meta">
+                                <span class="category-badge hot-topics">Hot Topics</span>
+                                <span class="author">ClimateDebater</span>
+                                <span class="time">5 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="thread-excerpt">Anyone else notice the quality of arguments in climate debates has really improved? Seeing a lot more scientific sources and nuanced takes...</p>
+                    <div class="thread-stats">
+                        <span>💬 38 replies</span>
+                        <span>👍 71 upvotes</span>
+                        <span>👁️ 445 views</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arment. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="terms.html">Terms</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="../index.html">Home</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/forum.js"></script>
+</body>
+</html>

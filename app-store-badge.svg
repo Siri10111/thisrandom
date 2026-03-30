@@ -1,0 +1,17 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="120" height="40" rx="5" fill="url(#badgeGradient)"/>
+  
+  <text x="35" y="14" font-family="Arial, sans-serif" font-size="8" fill="#ffffff" opacity="0.9">Download on the</text>
+  <text x="35" y="28" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">App Store</text>
+  
+  <!-- Apple Logo (simplified) -->
+  <path d="M 18 12 Q 16 10, 18 8 Q 20 10, 18 12 M 18 28 Q 14 28, 12 24 Q 10 20, 12 16 Q 14 12, 18 12 Q 22 12, 24 16 Q 26 20, 24 24 Q 22 28, 18 28" 
+        fill="#ffffff"/>
+</svg>
